@@ -1,0 +1,149 @@
+@font-face {
+
+    font-family: 'MinionProRegular';
+
+    src: url('fonts/Minion%20Pro%20Regular.ttf') format('ttf');
+
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    width: 1366px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    opacity: 0.54;
+}
+
+a.back-to-top {
+    display: none;
+    width: 75px;
+    height: 75px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: url("img/up.png") no-repeat;
+    background-size: 80px 80px;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+}
+
+a.back-to-top:hover {
+    background: url("img/up-hover.png") no-repeat;
+    background-size: 80px 80px;
+}
+
+.block {
+    display: block;
+}
+
+.px-border {
+    border: 1px solid #000000;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#trans-y-120 {
+    height: 120px;
+    width: 10px;
+    background-color: inherit;
+}
+
+#search-bar {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 97px;
+    background-image: -ms-linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+    background-image: -moz-linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+    background-image: linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+}
+
+#search-bar:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#search-label {
+    position: absolute;
+    left: -9999px;
+}
+
+#search-bar-input, #search-button {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#search-bar-input {
+    border: 1px solid #470607;
+    width: 222px;
+    height: 38px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 36px;
+    font-size: 16px;
+    background: #fff url("http://www.successacademies.org/site/themes/success-academy/assets/img/icon_search.png") no-repeat 5px;
+    background-size: 22px 22px;
+    background-position: 6px;
+}
+
+#search-button {
+    color: #fff;
+    border: 1px solid #470607;
+    border-radius: 0 5px 5px 0;
+    padding-right: 13px;
+    padding-left: 13px;
+    height: 40px;
+    background-color: #9E2F31;
+    background-image: -ms-linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    background-image: -moz-linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    background-image: -webkit-linear-gradient(top, #A1484A 0%, #780B0D 80%);
+    background-image: linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    box-shadow: inset 0 1px 1px #DCE7DC, 0 1px #EDE7DF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
