@@ -1,0 +1,110 @@
+@font-face {
+
+    font-family: 'MinionProRegular';
+
+    src: url('fonts/Minion%20Pro%20Regular.ttf') format('ttf');
+
+}
+
+header {
+    width: 100%;
+}
+
+#logo {
+    display: block;
+    width: 220px;
+    margin: auto;
+}
+
+nav {
+    background:#FFF;
+    float:left;
+    margin-left: 240px;
+    margin-top: 54px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    float:left;
+    display:inline;
+    font-family: MinionProRegular, sans-serif;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+nav ul li:hover {
+    background:#570A0A;
+    color: #fff;
+}
+
+nav ul li a {
+    display:block;
+    padding:15px 25px;
+    color: inherit;
+    z-index: 99999;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    position:absolute;
+    width: 177px;
+    background:#fff;
+    z-index: 99999;
+    border-bottom-right-radius: 12px;
+}
+
+nav ul li ul li {
+    width:177px;
+    z-index: 99999;
+    text-align: left;
+}
+
+nav ul li ul li a {
+    display:block;
+    padding:15px 10px;
+    color:#444;
+    z-index: 99999;
+    text-decoration: none;
+    margin-left: 7px;
+    width: 150px;
+}
+
+nav ul li ul li:hover a {
+    color: #fff;
+}
+
+nav ul li ul li:hover{
+    background-color: #851111;
+}
+
+nav ul li:nth-child(2) ul li:nth-child(2):hover{
+    background-color: #851111;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul li:nth-child(1) ul li:nth-child(3):hover{
+    background-color: #851111;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul li ul.fallback {
+    display:none;
+}
+
+nav ul li:hover ul.fallback {
+    display:block;
+}
+
+#nd-nav {
+    width: 172px;
+}
+
+#nd-nav > li {
+    width: 172px;
+}

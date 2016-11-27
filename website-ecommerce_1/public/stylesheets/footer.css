@@ -1,0 +1,104 @@
+.style-three {
+    margin-left: -1px;
+    margin-top: 10px;
+    border: 0;
+    height: 2px;
+    width: 200px;
+    background-color: #444444;
+}
+
+.footer-desc {
+    width: 266px;
+    color: #808080;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-contains {
+    display: inline-block;
+    margin-left: 97px;
+    margin-top: -166px;
+}
+
+#first {
+    margin-left: 357px;
+}
+
+.footer-contains-1 {
+    margin-left: 50px;
+    /* display: inline-block; */
+    /* margin-top: -8px; */
+    position: relative;
+    width: 102px;
+
+}
+
+.footer-headings {
+    font-size: 18px;
+}
+
+footer > section > div > ul > li > a{
+    color: #142012;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-transition: color .14s linear;
+    -moz-transition: color .14s linear;
+    -o-transition: color .14s linear;
+    transition: color .14s linear;
+}
+
+footer > section > div > ul > li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer > section > div > ul {
+    margin-top: 24px;
+}
+
+.attribute {
+    background-image: url("img/carret.png");
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    padding-bottom: -2px;
+}
+
+footer > section > div > ul > li:hover > a{
+    color: #8c0303;
+}
+
+footer > section {
+    margin-top: 70px;
+    margin-left: 70px;
+    padding-bottom: 34px;
+}
+
+.style-four {
+    width: 89%;
+    background-color: #000;
+    border: 0;
+    height: 2px;
+}
+
+.copyr {
+    font-size: 12px;
+    font-weight: 100;
+    float: left;
+    font-family: Arial, sans-serif;
+    color: #404040;
+    margin-left: 74px;
+    margin-top: 15px;
+}
+
+#footer-img {
+    margin-right: 74px;
+    float: right;
+}
+
+footer {
+    margin-top: -10px;
+}
