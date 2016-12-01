@@ -16,6 +16,10 @@ var users = require('./routes/users');
 
 var app = express();
 
+mongoose.connect('localhost:27017/website-eco');
+
+require('./config/passport');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
