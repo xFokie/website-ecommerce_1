@@ -11,7 +11,7 @@ var flash = require('connect-flash');
 var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session);
 
-//var sessionCheck = require('./routes/session-check');
+var sessionCheck = require('./routes/session-check');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var login = require('./routes/login');
@@ -66,6 +66,7 @@ app.use(function(req, res, next){
 app.use('/', routes);
 app.use('/users', users);
 app.use('/login', login);
+app.use('/logout', sessionCheck);
 app.use('/register', register);
 
 // catch 404 and forward to error handler
