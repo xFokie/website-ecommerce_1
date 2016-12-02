@@ -65,6 +65,7 @@ app.use(function(req, res, next){
 
 app.use('/', routes);
 app.use('/users', users);
+
 app.use('/login', login);
 app.use('/logout', sessionCheck);
 app.use('/register', register);
