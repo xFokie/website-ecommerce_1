@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <form action="/login/submit" method="post">
+        <p>Login</p>
+        <% if(locals.messages){ %>
+            <% if(messages.length > 0){ %>
+                <% for(var i = 0; i < messages.length; i++){ %>
+                    <p style="color: red"><%= messages[i] %></p>
+                <% } %>
+            <% } %>
+        <% } %>
+        <div class="input_row">
+            <input id="email" type="text" name="email" autofocus>
+            <label for="email"> Email</label>
+        </div>
+        <div class="input_row">
+            <input id="password" type="password" name="password">
+            <label for="password"> Password</label>
+        </div>
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <input type="submit" value="Login" class="submit">
+    </form>
+</body>
+</html>

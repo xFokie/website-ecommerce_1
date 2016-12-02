@@ -11,6 +11,7 @@ var flash = require('connect-flash');
 var validator = require('express-validator');
 var MongoStore = require('connect-mongo')(session);
 
+//var sessionCheck = require('./routes/session-check');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var login = require('./routes/login');
