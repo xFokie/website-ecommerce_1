@@ -8,7 +8,6 @@ var sessionCheck = require('./session-check');
 var csrfProtection = csrf();
 router.use(csrfProtection);
 
-/* GET home page. */
 router.get('/', sessionCheck.notLoggedIn, function(req, res, next) {
 	var messages = req.flash('error');
 	res.render('register', {csrfToken: req.csrfToken(), messages: messages});
