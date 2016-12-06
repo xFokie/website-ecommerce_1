@@ -6,7 +6,8 @@
 
 ##TODO List
 - [x] Create server
-- [ ] User registration
-- [ ] User login
+- [x] User registration
+- [x] User login
+- [x] Sessions
 - [ ] Shopping stuff
 - [x] Make America Great Again!
